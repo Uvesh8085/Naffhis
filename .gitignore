@@ -5,3 +5,12 @@
 tags
 node_modules
 __pycache__
+# Large JSON data files (livestock / animals)
+naffhis_app/*.json
+
+# OR if you want to be more specific
+naffhis_app/*Animals*.json
+naffhis_app/*Livestock*.json
+naffhis_app/*PIG*.json
+naffhis_app/*Bovine*.json
+naffhis_app/*OVINE*.json
